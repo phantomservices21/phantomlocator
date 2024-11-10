@@ -17,6 +17,8 @@
 2. Run Builder.bat and it should install Python and all of the libraries if they aren't already installed, if this doesn't work try installing them manually.
 3. Enjoy!
 
+> You can also download the latest release if you only want the executable and not the source code.
+
 ## Console
 This tool has a 'console' function built into it. Once you enter an IP address you will have five options to choose from.
 
