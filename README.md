@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Phantom Locator</h1>
+  <h3 align="center">Phantom Locator</h1>
 </p>
 
 ## About
@@ -14,10 +14,19 @@
 
 ## Installation
 1. Click on the green "Code" button and then click on "Download ZIP"
-2. Run Builder.bat and it should install most of the modules, if it doesn't work try to manually install them.
+2. Run Builder.bat and it should install Python and all of the libraries if they aren't already installed, if this doesn't work try installing them manually.
 3. Enjoy!
-> **NOTE:** Step 2 will NOT install Python, only the libraries.
 
+## Console
+This tool has a 'console' function built into it. Once you enter an IP address you will have five options to choose from.
+
+| Command     | Description |
+| ----------- | ----------- |
+| `help` | Displays a list of help commands. |
+| `new` | Locates an ip address. |
+| `map` | Opens the location of your IP address in your browser. |
+| `time` | Displays the current time at the location of your IP address. |
+| `exit` | Quits the application.
 
 <p align="center">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A502DA&center=true&width=435&lines=Phantom+Services" alt="Typing SVG"/>
