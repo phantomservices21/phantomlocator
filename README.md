@@ -2,13 +2,14 @@
   <h3 align="center">Phantom Locator</h1>
 </p>
 
+> [!NOTE]
 > This is the free version of this software which comes with limited features. If you want to purchase the pro version please visit my [official Discord server](https://discord.gg/sEgjHhDfVd).
 
 ## About
 **Phantom Locator** is a tool written in Python which takes an IP address and returns it's data like location, ISP, etc.
 
-## ⚠️ **WARNING**
-**Only download Phantom tools from my [official Github account](https://github.com/phantomservices21) or my [official Discord server](https://discord.gg/sEgjHhDfVd). Failure to do so may result in downloading malware.**
+> [!WARNING]
+> **Only download Phantom tools from my [official Github account](https://github.com/phantomservices21) or my [official Discord server](https://discord.gg/sEgjHhDfVd). Failure to do so may result in downloading malware.**
 
 ## Requirements
 - Windows 11 or 10
