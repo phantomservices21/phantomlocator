@@ -1,4 +1,4 @@
-version = 1.1
+version = 1.2
 
 import os
 import keyboard
@@ -7,15 +7,8 @@ import json
 from prettytable import PrettyTable
 from colorama import Fore, Style
 
-os.system("cls" if os.name == "nt" else "clear")
+os.system("cls")
 
-if os.name != "nt":
-    print("You must be using Windows 11/10 to run this program.")
-    print("Press any key to continue...", end="", flush=True)
-    keyboard.read_event()
-    exit()
-    
-    
 os.system("title Phantom Locator")    
     
 def locate(ip):
@@ -29,9 +22,9 @@ def locate(ip):
         table.add_row(["Region", f"{ip_data['regionName']} ({ip_data['region']})"])
         table.add_row(["City", ip_data["city"]])
         table.add_row(["ZIP Code", ip_data["zip"]])
-        table.add_row(["Latitude", ip_data["lat"]])
-        table.add_row(["Longitude", ip_data["lon"]])
-        table.add_row(["Timezone", ip_data["timezone"]])
+        table.add_row(["Latitude", "Pro Version Needed"])
+        table.add_row(["Longitude", "Pro Version Needed"])
+        table.add_row(["Timezone", "Pro Version Needed"])
         table.add_row(["Internet Service Provider", ip_data["isp"]])
         table.add_row(["Organization", ip_data["org"]])
         table.add_row(["Autonomous System", ip_data["as"]])
